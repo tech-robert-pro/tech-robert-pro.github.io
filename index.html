@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert | Technical Writer</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #333; background: #fafafa; }
+        .container { max-width: 900px; margin: 0 auto; padding: 2rem; }
+        header { text-align: center; padding: 3rem 0; border-bottom: 1px solid #e0e0e0; margin-bottom: 2rem; }
+        h1 { font-size: 2.5rem; margin-bottom: 0.5rem; color: #1a1a1a; }
+        .tagline { font-size: 1.2rem; color: #666; margin-bottom: 1.5rem; }
+        .contact { display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; }
+        .contact a { color: #2D7A7A; text-decoration: none; font-weight: 500; }
+        .contact a:hover { text-decoration: underline; }
+        section { margin-bottom: 3rem; }
+        h2 { font-size: 1.5rem; margin-bottom: 1rem; color: #1a1a1a; border-bottom: 2px solid #2D7A7A; padding-bottom: 0.25rem; display: inline-block; }
+        .stat-card { background: white; border: 1px solid #e0e0e0; border-radius: 8px; padding: 1.5rem; margin: 1rem 0; transition: transform 0.2s; }
+        .stat-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        .stat-number { font-size: 2rem; font-weight: bold; color: #2D7A7A; }
+        .stat-label { color: #666; margin-top: 0.25rem; }
+        .case-study { background: white; border: 1px solid #e0e0e0; border-radius: 8px; padding: 1.5rem; margin: 1rem 0; }
+        .case-study h3 { margin-bottom: 0.5rem; color: #1a1a1a; }
+        .case-study p { margin-bottom: 0.75rem; }
+        .skills { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+        .skill-tag { background: #f0f0f0; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; }
+        footer { text-align: center; padding: 2rem 0; color: #666; border-top: 1px solid #e0e0e0; margin-top: 3rem; }
+        @media (max-width: 600px) { h1 { font-size: 2rem; } .stat-number { font-size: 1.5rem; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Robert</h1>
+            <p class="tagline">Technical Writer | Hardware Documentation Specialist | 9 Years Experience</p>
+            <div class="contact">
+                <a href="mailto:tech.robert@protonmail.com">Email</a>
+                <span>•</span>
+                <a href="https://www.linkedin.com/in/robert-h-pro/">LinkedIn</a>
+                <span>•</span>
+                <a href="https://github.com/tech-robert-pro">GitHub</a>
+            </div>
+        </header>
+
+        <section id="overview">
+            <h2>Overview</h2>
+            <p>Senior technical writer specializing in hardware documentation with 9 years of end-to-end ownership. Produced 900+ user manuals across monitors, projectors, and large-format displays. Built custom documentation infrastructure from scratch, including a fully accessible MediaWiki platform serving internal and external audiences.</p>
+        </section>
+
+        <section id="impact">
+            <h2>Impact by Numbers</h2>
+            <div class="stat-card">
+                <div class="stat-number">900+</div>
+                <div class="stat-label">User manuals shipped over 9 years.</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">100+</div>
+                <div class="stat-label">Documentation deliverables per year.</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">9</div>
+                <div class="stat-label">Years of solo ownership on core documentation suite.</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">Multiple</div>
+                <div class="stat-label">Product categories: monitors, projectors, large-format displays, software.</div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            
+            <div class="case-study">
+                <h3>Hardware User Manual Suite</h3>
+                <p><strong>Role:</strong> Sole Owner (Start to Finish)</p>
+                <p><strong>Challenge:</strong> Consistent, scalable documentation across multiple hardware product lines with tight production deadlines.</p>
+                <p><strong>Approach:</strong> Created reusable templates and SOP guides that standardized style and accelerated production time. Worked across Adobe Creative Suite (InDesign, Illustrator, Photoshop) and open-source alternatives (GIMP, Inkscape, LibreOffice, VSCodium).</p>
+                <p><strong>Outcome:</strong> Sustained 100+ guides/year output for 9 years while maintaining brand and style consistency. Trained team members on template adoption and standards.</p>
+                <p><strong>Evidence:</strong> <a href="https://github.com/tech-robert-pro/user-manual-templates">Template Repository →</a></p>
+            </div>
+
+            <div class="case-study">
+                <h3>Custom Documentation Platform</h3>
+                <p><strong>Role:</strong> Solo Developer and Maintainer</p>
+                <p><strong>Challenge:</strong> Improve information reach and access speed beyond static PDF distribution.</p>
+                <p><strong>Approach:</strong> Built an online documentation site from scratch using MediaWiki base. Handled all Bootstrap coding, custom templates, CSS, JavaScript, and ensured WCAG accessibility compliance.</p>
+                <p><strong>Outcome:</strong> Live wiki serving as centralized knowledge hub with improved discoverability and search functionality.</p>
+                <p><strong>Evidence:</strong> <a href="https://manuals.viewsonic.com">User Manual Live Site →</a></p>
+            </div>
+
+            <div class="case-study">
+                <h3>FAQ Video Series</h3>
+                <p><strong>Role:</strong> Host and Technical Advisor (Team Effort)</p>
+                <p><strong>Contribution:</strong> Provided technical accuracy, scripting, and on-camera presence for customer-facing video documentation.</p>
+                <p><strong>Outcome:</strong> Expanded documentation formats beyond written materials, reaching customers who prefer visual learning.</p>
+            </div>
+        </section>
+
+        <section id="tools">
+            <h2>Tools & Skills</h2>
+            <div class="skills">
+                <span class="skill-tag">Adobe InDesign</span>
+                <span class="skill-tag">Adobe Illustrator</span>
+                <span class="skill-tag">Adobe Photoshop</span>
+                <span class="skill-tag">GIMP</span>
+                <span class="skill-tag">Inkscape</span>
+                <span class="skill-tag">LibreOffice</span>
+                <span class="skill-tag">VSCodium</span>
+                <span class="skill-tag">Linux</span>                
+                <span class="skill-tag">MediaWiki</span>
+                <span class="skill-tag">HTML/CSS</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">Bootstrap</span>
+                <span class="skill-tag">WCAG Accessibility</span>
+                <span class="skill-tag">Markdown</span>
+                <span class="skill-tag">Git/GitHub</span>
+                <span class="skill-tag">Style Guide Development</span>
+                <span class="skill-tag">Training & Mentorship</span>
+            </div>
+        </section>
+
+        <section id="assets">
+            <h2>Document Archive</h2>
+            <p>Full PDF archive available upon request. Selected samples organized by product category in GitHub repositories:</p>
+            <ul>
+                <li><a href="https://github.com/tech-robert-pro/user-manual-templates">Templates & SOP Guides →</a></li>
+                <li><a href="https://github.com/tech-robert-pro/llm-tool-examples">LLM Tool Examples →</a></li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Robert. Open to opportunities in technical writing, documentation engineering, and developer documentation.</p>
+        </footer>
+    </div>
+</body>
+</html>
